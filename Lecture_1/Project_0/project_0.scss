@@ -1,0 +1,27 @@
+%message {
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.links {
+    @extend %message;
+    color: rgb(71, 57, 204);
+    text-align: right;
+}
+
+.button {
+    @extend %message;
+    text-align: center;
+    
+}
+
+.logo{
+    @extend %message;
+    border: 0px;
+    width: 300px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}

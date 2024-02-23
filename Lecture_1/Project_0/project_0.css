@@ -1,0 +1,25 @@
+.logo, .button, .links {
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+.links {
+  color: rgb(71, 57, 204);
+  text-align: right;
+}
+
+.button {
+  text-align: center;
+}
+
+.logo {
+  border: 0px;
+  width: 300px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=project_0.css.map */
