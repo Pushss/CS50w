@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form>
+            <div>
+                <input type="text" placeholder="Full Name" name="name">
+                <input type="email" placeholder="Email" name="email">
+                <input type="password" placeholder="password" name="password">
+            </div>
+
+            <div>
+                What is your favorite colour?
+                <input type="color" type="button" value="red">Red
+                <input type="color" type="button" value="green">Green
+                <input type="color" type="button" value="blue">Blue
+                <input type="color" type="button" value="other">Other
+            </div>
+            
+            <div>
+                <input type="country" list="countries" placeholder="Country">
+                <datalist id="countries">
+                    <option value="Wales">
+                    <option value="England">
+                    <option value="Northern Ireland">
+                    <option value="Scotland">
+                    <option value="Wales">
+                    <option value="England">
+                    <option value="Northern Ireland">
+                </datalist>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
